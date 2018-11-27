@@ -12,6 +12,7 @@ db.movies.find({name: "Harry Potter"}).pretty()
 // show all
 db.movies.find().pretty()
 
+// DO NOT USE "update" in mongodb...
 // delete old register, and put this new info instead (dangerous, deletes everything else!)
 db.movies.update({name:"Harry Potter"}, {name: "harry potter and the philosopher's stone"})
 
