@@ -1,7 +1,0 @@
-use movies
-db.createCollection('movies')
-
-show databases
-
-db.movies.insert({name: "Harry Potter"})
-db.movies.find({name: "Harry Potter"})
